@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoTech - Login Empresa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: rgb(3, 161, 87);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+    }
+    .login-card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .login-card h1 {
+      color: #00796b;
+      margin-bottom: 10px;
+    }
+    .login-card p {
+      margin-bottom: 20px;
+      color: #555;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      text-align: left;
+    }
+    label {
+      font-weight: bold;
+      color: #333;
+    }
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px;
+      background-color: #00796b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #004d40;
+    }
+    .voltar {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .voltar a {
+      color: #00796b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-card">
+      <h1>Login - Empresa</h1>
+      <p>Acesse sua conta empresarial</p>
+      <form>
+        <label for="cnpj">CNPJ</label>
+        <input type="text" id="cnpj" placeholder="Digite seu CNPJ" required />
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Digite sua senha" required />
+
+        <button type="submit">Entrar</button>
+      </form>
+      <p class="voltar"><a href="index.html">← Voltar</a></p>
+    </div>
+  </div>
+</body>
+</html>
