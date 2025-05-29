@@ -1,10 +1,9 @@
-* RESET CSS */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
-
 }
 
 /* VARIAVEIS */
@@ -21,6 +20,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -29,6 +29,11 @@ header {
     display: flex;
     height: 120px;
     justify-content: center;
+     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
     /* background-color: black; */
 }
 
@@ -37,6 +42,11 @@ header {
     display: flex;
     width: 990px;
     justify-content: space-between;
+     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
 }
 
 .logo {
@@ -47,7 +57,7 @@ header {
 .logo img {
     display: flex;
 	width: 125px;
-	padding-bottom: 25px;
+	padding-bottom: 11px;
 }
 
 nav {
@@ -95,11 +105,11 @@ nav .active a,nav a:hover {
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url(/home/marcosokamoto/Downloads/EcoTechSolutions!/assets/images/f0802fad-891a-4e1c-b077-1996c8390db5.png);
+    background-image: url("../images/f0802fad-891a-4e1c-b077-1996c8390db5.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 84vh;
+    height: 86vh;
 	width: 100vw;
 	
 }
@@ -121,8 +131,6 @@ nav .active a,nav a:hover {
 
 .title-banner h2 {
     text-shadow: 2px 3px 0px #0f3b09;;
-    margin-top: -30px;
-	padding-bottom: 30px;
     font-size: 30px;
     width: 300px;
 }
