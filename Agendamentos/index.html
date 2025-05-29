@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ECO TECH - AGENDAR COLETA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="Logotipo para empresa de representações simples em branco e preto 22222.png" alt="Logo EcoTech" width="100" />
+      <h1>Agendar Coleta</h1>
+      <p>Informe os dados para o agendamento</p>
+      <form>
+        <label for="tipo-residuo">Tipo de Resíduo</label>
+        <select id="tipo-residuo" required>
+          <option value="">Selecione...</option>
+          <option value="celular">Celular</option>
+          <option value="notebook">Notebook</option>
+          <option value="tv">TV</option>
+          <option value="outro">Outro</option>
+        </select>
+
+        <label for="endereco">Endereço</label>
+        <input type="text" id="endereco" placeholder="Digite seu endereço" required />
+
+        <label for="data">Data da Coleta</label>
+        <input type="date" id="data" required />
+
+        <label for="hora">Horário</label>
+        <input type="time" id="hora" required />
+
+        <button type="submit">Agendar Coleta</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
