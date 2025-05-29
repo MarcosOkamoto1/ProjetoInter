@@ -59,9 +59,6 @@ header {
 	width: 125px;
 	padding-bottom: 11px;
 }
-.logo img:hover {
-    transform: scale(1.1); /* Aumenta a logo em 10% quando o mouse passa sobre ela */
-}
 
 nav {
     display: flex;
